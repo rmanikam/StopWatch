@@ -1,0 +1,56 @@
+/* created a body tag and gave it display: flex, align-items: center, justify-content: center
+ to position the stopwatch in the center and background-blue */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+}
+/* created a outer_container class and gave it display: flex, align-items: center, justify-content: center
+ to position the outer_container in the center and background of white, and gave a border of 1px solid balack and 
+ border radius to round the border from all edges and width and height too */
+.outer_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid black;
+  background-color: springgreen;
+  border-radius: 20px;
+  width: 500px;
+  height: 200px;
+}
+/* created a  class timer_container and gave it display: flex, align-items: center, justify-content: center
+ to position the timer_container in the center and background-color of white and color: blue
+ and margin-bottom of 50px and border of 1px solid grey and width of 200px and height of 400px and margin-top of 30-px*/
+.timer_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  color: blue;
+  border: 1px solid grey;
+  background-color: white;
+  width: 200px;
+  margin-top: 30px;
+  height: 400px;
+}
+/* created a class buttons and gave it a margin-bottom of 50px  */
+.buttons {
+  margin-bottom: 50px;
+}
+/* created an id start for start button and gave it a background-color:blue */
+
+#start {
+  background-color: blue;
+}
+
+/* created an id stop for stop button and gave it a background-color:red */
+#stop {
+  background-color: red;
+}
+
+/* created an id reset for reset button and gave it a background-color:green */
+#reset {
+  background-color: green;
+}
